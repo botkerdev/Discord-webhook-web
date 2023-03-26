@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>디스코드 웹훅 전송기</title>
+  <style>
+    body {
+    background-color: white;
+}
+h1 {
+    color: #181818;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 75px;
+}
+form {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+  </style>
+</head>
+<body>
+    <h1>디스코드 웹훅 전송기</h1>
+    <form action="/" method="post">
+        <label for="url">웹훅 URL:</label>
+        <input type="text" id="url" name="url"><br><br>
+        <label for="message">메세지:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
